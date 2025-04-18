@@ -1,2 +1,10 @@
 @import 'tailwindcss';
 @plugin "daisyui";
+
+/* BASE */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-zinc-900 text-zinc-50 h-[200vh];
+}
