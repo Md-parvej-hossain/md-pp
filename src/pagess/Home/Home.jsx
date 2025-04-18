@@ -1,9 +1,10 @@
-import App from '../../components/App';
+import About from '../../components/about/About';
 import Hero from '../../components/hero/Hero';
 const Home = () => {
   return (
-    <div>
+    <div className=''>
       <Hero />
+      <About />
     </div>
   );
 };

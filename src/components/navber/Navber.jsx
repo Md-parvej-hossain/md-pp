@@ -20,7 +20,7 @@ const Navber = () => {
         </details>
       </li> */}
       <li>
-        <NavLink>About</NavLink>
+        <NavLink >About</NavLink>
       </li>
       <li>
         <NavLink>Servise</NavLink>
@@ -34,13 +34,13 @@ const Navber = () => {
     </>
   );
   return (
-    <div className="navbar  shadow-sm fixed z-50 top-2">
+    <div className="navbar  shadow-sm fixed z-50  glass">
       <div className="navbar-start">
         <Link className=" text-xl font-bold">Md Parvej .</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul
-          className="menu menu-horizontal px-2 bg-[#2e2a29] rounded-4xl  font-medium
+          className="menu menu-horizontal px-2 bg-[#2e2a29] rounded-4xl  font-medium glass
 "
         >
           {navber}
