@@ -4,7 +4,7 @@ const Navber = () => {
   const navber = (
     <>
       <li>
-        <NavLink>Home</NavLink>
+        <NavLink to="/">Home</NavLink>
       </li>
       {/* <li>
         <details>
@@ -20,7 +20,9 @@ const Navber = () => {
         </details>
       </li> */}
       <li>
-        <NavLink >About</NavLink>
+        <a id="about">
+          About
+        </a>
       </li>
       <li>
         <NavLink>Servise</NavLink>
